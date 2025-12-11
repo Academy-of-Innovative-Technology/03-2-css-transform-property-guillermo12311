@@ -1,19 +1,43 @@
 .box {
-    width: 100px;
-    height: 100px;
-    margin: 20px;
-    background-color: lightblue;
-    text-align: center;
-    line-height: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  background-color: lightblue;
+  text-align: center;
+  line-height: 100px;
 }
 
 /* ==== CODE ALONG ==== */
-
-
-
+#box1 {
+  transform: scale(1.2);
+}
+#box2 {
+  transform: translate(20px, 20px);
+}
+#box3 {
+  transform: rotate(45deg);
+}
+#box4 {
+  transform: skew(20deg, 20deg);
+}
+#box1:hover {
+  transform: rotate(1.2);
+  transition: 0.3s ease;
+}
+#box2:hover {
+  transform: rotate(360deg);
+  transition: 0.3s ease;
+}
+#box3:hover {
+  transform: rotate(360deg);
+  transition: 0.3s ease;
+}
+#box4:hover {
+  transform: rotate(360deg);
+  transition: 0.3s ease;
+}
 /* ==== CODE SOLO ==== */
 
 /* Apply FOUR CSS transforms in total to make the boxes visually distinct and interesting. You can use scale, translate, rotate, and skew or even combine them. */
-
 
 /* BONUS: Try combining the :hover selector with the transform property. Try to make the boxes spin when you hover over them. Use the transition: 0.3s ease; property and value to make it smoother. */
